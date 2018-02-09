@@ -1,5 +1,9 @@
 # Articles
 
+## Methodology
+
+[Эмиссионная сейсмическая томография по данным дистанционного зондирования Земли](methodology.pdf)
+
 ## Gravity
 
 [Compensation of noise using circular mean Radon transform for the inverse gravity problem](gravity/sphere_radon.pdf)
