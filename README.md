@@ -1,5 +1,7 @@
 # Articles
 
+## Gravity
+
 [Compensation of noise using circular mean Radon transform for the inverse gravity problem](gravity/sphere_radon.pdf)
 
 We consider analytical solution for gravity field of spherical ball and prove inverse problem solution by circular mean Radon transform. Reconstruction result of spherical ball position from simulated gravity field with additive noise is obtained.
