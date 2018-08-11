@@ -14,6 +14,6 @@ We consider analytical solution for gravity field of spherical ball and prove in
 
 We consider analytical solution for gravity field of two spherical balls when one ball has positive mass and the other has negative and the masses are a bit different. Provided inverse problem approximated solutions by circular mean Radon transform. Reconstruction result for center mass position from simulated gravity field of the spherical balls is obtained by numerical computation.
 
-[Using circular mean Radon transform for numerical solution of inverse gravity problem](gravity/Using circular mean Radon transform for numerical solution of inverse gravity problem.pdf)
+[Using circular mean Radon transform for numerical solution of inverse gravity problem](gravity/pairs_radon.pdf)
 
 Provided numerical computation model for inverse gravity problem approximated solutions by circular mean Radon transform for horizontal and vertical pair of masses.
