@@ -10,7 +10,7 @@
 
 We consider analytical solution for gravity field of spherical ball and prove inverse problem solution by circular mean Radon transform. Reconstruction result of spherical ball position from simulated gravity field with additive noise is obtained.
 
-[Alexey Pechnikov, Using circular mean Radon transform for circular geological structures recognition and 3D куба  как значений КПР [1], [2], известного также какD geological volume reconstruction, 2018](gravity/circle_radon.pdf)
+[Alexey Pechnikov, Using circular mean Radon transform for circular geological structures recognition and 3D geological volume reconstruction, 2018](gravity/circle_radon.pdf)
 
 We consider analytical solution for gravity field of two spherical balls when one ball has positive mass and the other has negative and the masses are a bit different. Provided inverse problem approximated solutions by circular mean Radon transform. Reconstruction result for center mass position from simulated gravity field of the spherical balls is obtained by numerical computation.
 
