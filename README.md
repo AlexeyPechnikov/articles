@@ -6,7 +6,7 @@
 
 ## Gravity
 
-[Alexey Pechnikov, Compensation of noise using circular mean Radon transform for the inverse gravity problem, 2018](gravity/sphere_radon.pdf)
+[Alexey Pechnikov, Robust Depth Estimation Using Circular Mean Radon Transform for the Inverse Potential Problem, 2018](gravity/sphere_radon.pdf)
 
 We consider analytical solution for gravity field of spherical ball and prove inverse problem solution by circular mean Radon transform. Reconstruction result of spherical ball position from simulated gravity field with additive noise is obtained.
 
