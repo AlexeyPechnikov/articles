@@ -1,9 +1,5 @@
 # Articles
 
-## Methodology
-
-[Эмиссионная сейсмическая томография по данным дистанционного зондирования Земли](methodology.pdf)
-
 ## Gravity
 
 [Alexey Pechnikov, Robust Depth Estimation Using Circular Mean Radon Transform for the Inverse Potential Problem, 2018](gravity/sphere_radon.pdf)
