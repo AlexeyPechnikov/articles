@@ -1,20 +1,18 @@
 #!/bin/sh
-# sh ./dload_pics.sh https://habr.com/ru/post/567428/
-wget \
-     -A jpeg,gif,png,jpg \
-     -nd \
-     --level 1 \
-     --page-requisites \
-     --adjust-extension \
-     --span-hosts \
-     --convert-links \
-     -e robots=off \
-     --domains habrastorage.org,hsto.org \
-     --no-parent \
-    "$1"
+# sh ./dload_pics.sh
 
-# drop avatars
-for FNAME in $(find . -type f -size -16k)
+pwd=$(pwd)
+dir=$(basename "$pwd")
+echo "$dir"
+
+cd ..
+file=$(ls "$dir "*.md)
+cd "$pwd"
+echo "Markdown file found: $file"
+
+IMAGES=$(cat "../$file" | grep '!\[\](' | sed -E 's/!\[\]\((https:\/\/.*)\)/\1/')
+for IMAGE in $IMAGES
 do
-    rm "$FNAME"
+    echo "Download image $IMAGE"
+    wget -c "$IMAGE"
 done
